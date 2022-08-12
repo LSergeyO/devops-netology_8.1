@@ -1,0 +1,13 @@
+---
+  el:
+    hosts:
+      192.168.100.70:
+        ansible_connection: ssh
+  deb:
+    hosts:
+      192.168.100.94:
+        ansible_connection: ssh
+  local:
+    hosts:
+      localhost:
+        ansible_connection: local
